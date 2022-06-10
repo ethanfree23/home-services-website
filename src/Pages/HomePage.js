@@ -1,6 +1,7 @@
 import React from 'react'
 
 import WhyChooseUse from '../Components/WhyChooseUse.js'
+import WhatWeDo from '../Components/WhatWeDo.js'
 import HeroImg from '../img/HeroImg.png'
 
 function HomePage() {
@@ -13,6 +14,7 @@ function HomePage() {
                 <img src={HeroImg} />
             </div>
             <WhyChooseUse />
+            <WhatWeDo />
             <div>
                 <h3>Our Serivces</h3>
                 <div>Remodeling</div>
