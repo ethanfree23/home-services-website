@@ -1,18 +1,18 @@
 import React from 'react'
 
-import WhatWeDo from '../Components/WhatWeDo.js'
+import WhyChooseUse from '../Components/WhyChooseUse.js'
 import HeroImg from '../img/HeroImg.png'
 
 function HomePage() {
     return (
         <>
-            <h2 className="text-3xl font-bold underline container-lg">
+            <h2 className="text-3xl font-extrabold underline text-center tracking-widest">
                 Hello world!
             </h2>
             <div>
                 <img src={HeroImg} />
             </div>
-            <WhatWeDo />
+            <WhyChooseUse />
             <div>
                 <h3>Our Serivces</h3>
                 <div>Remodeling</div>
