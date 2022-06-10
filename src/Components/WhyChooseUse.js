@@ -32,7 +32,7 @@ const features = [
 
 function WhyChooseUse() {
     return (
-        <div className="py-12 bg-white">
+        <div className="my-24 py-12 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Why Choose Us</h2>

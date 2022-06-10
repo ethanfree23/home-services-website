@@ -9,7 +9,7 @@ import Footer from '../Components/Footer.js'
 function HomePage() {
     return (
         <>
-            <img className="-my-6" src={HeroImg} />
+            <img className="-my-6 h-[765px]" src={HeroImg} />
             <WhyChooseUse />
             <WhatWeDo />
             <Footer />
