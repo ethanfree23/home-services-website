@@ -36,8 +36,8 @@ function PlumbingServicesPage() {
   return (
     <div className="bg-white">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 id="products-heading" className="sr-only">
-          Products
+        <h2 id="products-heading" className="mb-10">
+          Plumbing Services
         </h2>
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:gap-x-8">
