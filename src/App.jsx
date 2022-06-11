@@ -13,6 +13,7 @@ import ContactPage from './Pages/ContactPage.js'
 import Remodeling from './Pages/RemodelingServicesPage.js'
 import Electrical from './Pages/ElectricalServicesPage.js'
 import Plumbing from './Pages/PlumbingServicesPage.js'
+import Footer from './Components/Footer.js'
 
 function App() {
   return (
@@ -39,9 +40,10 @@ function App() {
 
         <Route path="/Services-Electrical" element={<Electrical />} />
 
-        <Route path="/Services-Remodeling" element={<Plumbing />} />
+        <Route path="/Services-Plumbing" element={<Plumbing />} />
 
       </Routes>
+      <Footer />
     </>
   );
 }

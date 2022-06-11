@@ -4,7 +4,6 @@ import HeroImg from '../img/HeroImg.png'
 
 import WhyChooseUse from '../Components/WhyChooseUse.js'
 import WhatWeDo from '../Components/WhatWeDo.js'
-import Footer from '../Components/Footer.js'
 
 function HomePage() {
     return (
@@ -12,7 +11,6 @@ function HomePage() {
             <img className="-my-6 h-[765px]" src={HeroImg} />
             <WhyChooseUse />
             <WhatWeDo />
-            <Footer />
         </>
     )
 }

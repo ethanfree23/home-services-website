@@ -1,5 +1,6 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
+import WhatWeDo from '../Components/WhatWeDo'
 
 
 function ServicesPage() {
@@ -17,12 +18,13 @@ function ServicesPage() {
 
   return (
     <>
-      <div>
-        <h3>Services</h3>
-        <h6 onClick={goToRemodeling}>Remodeling</h6>
-        <h6 onClick={goToElectrical}>Electrical</h6>
-        <h6 onClick={goToPlumming}>Plumbing</h6>
-      </div>
+    <WhatWeDo />
+      {/* <div>
+        <h3 className="justify">Services</h3>
+        <button className="border mx-6"onClick={goToRemodeling}>Remodeling</button>
+        <button className="border mx-6"onClick={goToElectrical}>Electrical</button>
+        <button className="border mx-6"onClick={goToPlumming}>Plumbing</button>
+      </div> */}
     </>
   )
 }
