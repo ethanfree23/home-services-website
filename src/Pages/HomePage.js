@@ -8,7 +8,7 @@ import WhatWeDo from '../Components/WhatWeDo.js'
 function HomePage() {
     return (
         <>
-            <img className="-my-6 h-[765px]" src={HeroImg} />
+            <img className="-my-6 w-[2200px] h-[765px]" src={HeroImg} />
             <WhyChooseUse />
             <WhatWeDo />
         </>

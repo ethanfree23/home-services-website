@@ -1,6 +1,13 @@
 import React from 'react'
 
 const callouts = [
+  {
+    name: 'Plumbing',
+    description: 'We go so deep',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: 'Services-Plumbing',
+  },
     {
       name: 'Remodeling',
       description: 'Kitchens, Bedrooms, Living Rooms, etc.',
@@ -14,13 +21,6 @@ const callouts = [
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: 'Services-Electrical',
-    },
-    {
-      name: 'Plumbing',
-      description: 'We go so deep',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-      imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-      href: 'Services-Plumbing',
     },
   ]
   
