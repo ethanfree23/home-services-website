@@ -1,10 +1,13 @@
 import React from 'react'
 
+import PlumbingImage from '../img/plumber_one.jpeg'
+
+
 const callouts = [
   {
     name: 'Plumbing',
     description: 'We go so deep',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageSrc: PlumbingImage,
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: 'Services-Plumbing',
   },
