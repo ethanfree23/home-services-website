@@ -29,10 +29,10 @@ const callouts = [
   
   export default function WhatWeDo() {
     return (
-      <div className="bg-gray-100">
+      <div className="bg-[#f9f9f9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-            <h2 className="text-2xl font-extrabold text-gray-900">Our Services</h2>
+            <h2 className="text-2xl font-extrabold text-[#283618]">Our Services</h2>
   
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout) => (
@@ -44,13 +44,13 @@ const callouts = [
                       className="w-full h-full object-center object-cover"
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
+                  <h3 className="mt-6 text-sm text-[#606c38]">
                     <a href={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}
                     </a>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                  <p className="text-base font-semibold text-[#283618]">{callout.description}</p>
                 </div>
               ))}
             </div>
