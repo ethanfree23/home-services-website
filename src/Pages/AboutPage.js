@@ -1,6 +1,6 @@
 import React from 'react'
+import plumber from '../img/plumbing-aboutPage.jpeg'
 
-/* This example requires Tailwind CSS v2.0+ */
 const stats = [
   { label: 'Founded', value: '2021' },
   { label: 'Employees', value: '5' },
@@ -42,11 +42,11 @@ function AboutPage() {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                src={plumber}
                 alt=""
               />
-              <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
-              <div className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+              <div className="absolute inset-0 bg-[#d8c5c5] mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#003278] via-[#003278] opacity-90" />
               <div className="relative px-8">
                 <div>
                   <img

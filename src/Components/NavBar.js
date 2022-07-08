@@ -55,7 +55,7 @@ function NavBar() {
                                                 key={item.name}
                                                 href={item.href}
                                                 className={classNames(
-                                                    item.current ? 'bg-[#283618] text-white' : 'text-[#252424] hover:bg-[#606c38] hover:text-white',
+                                                    item.current ? 'bg-[#003278] text-white' : 'text-[#252424] hover:bg-[#003278b7] hover:text-white',
                                                     'px-3 py-2 rounded-md text-sm font-medium'
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
@@ -69,7 +69,7 @@ function NavBar() {
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"
-                                    className="bg-[#ebeae4] p-1 rounded-full text-[#606c38] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#606c38] focus:ring-white"
+                                    className="bg-[#003278] p-1 rounded-full text-[#f9f9f9] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#c0111f] focus:ring-white"
                                 >
                                     <span className="sr-only">View notifications</span>
                                     <BellIcon className="h-6 w-6" aria-hidden="true" />
