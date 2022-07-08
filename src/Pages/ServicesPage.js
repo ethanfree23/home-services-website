@@ -1,6 +1,6 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
-import WhatWeDo from '../Components/WhatWeDo'
+import OurServices from '../Components/OurServices'
 
 
 function ServicesPage() {
@@ -18,7 +18,7 @@ function ServicesPage() {
 
   return (
     <>
-    <WhatWeDo />
+    <OurServices />
       {/* <div>
         <h3 className="justify">Services</h3>
         <button className="border mx-6"onClick={goToRemodeling}>Remodeling</button>

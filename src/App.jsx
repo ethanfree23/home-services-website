@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <br />
+      
       <Routes>
 
         <Route path="/" element={<HomePage />} />
@@ -43,7 +43,7 @@ function App() {
         <Route path="/Services-Plumbing" element={<Plumbing />} />
 
       </Routes>
-      <br />
+
       <Footer />
     </>
   );
