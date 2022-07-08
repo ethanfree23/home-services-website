@@ -1,6 +1,8 @@
 import React from 'react'
 
-import PlumbingImage from '../img/plumber_one.jpeg'
+import PlumbingImage from '../img/plumbingimage.jpeg'
+import RemodelingImage from '../img/remodeling.jpeg'
+import ElectricalImage from '../img/electricalwork.webp'
 
 
 const callouts = [
@@ -14,14 +16,14 @@ const callouts = [
     {
       name: 'Remodeling',
       description: 'Kitchens, Bedrooms, Living Rooms, etc.',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+      imageSrc: RemodelingImage,
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: 'Services-Remodeling',
     },
     {
       name: 'Electrical',
       description: 'The best in town',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+      imageSrc: ElectricalImage,
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: 'Services-Electrical',
     },

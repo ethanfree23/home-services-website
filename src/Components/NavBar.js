@@ -66,7 +66,7 @@ function NavBar() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"
                                     className="bg-[#003278] p-1 rounded-full text-[#f9f9f9] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#c0111f] focus:ring-white"
@@ -75,7 +75,7 @@ function NavBar() {
                                     <BellIcon className="h-6 w-6" aria-hidden="true" />
                                 </button>
 
-                                {/* Profile dropdown */}
+                                Profile dropdown
                                 <Menu as="div" className="ml-3 relative">
                                     <div>
                                         <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -130,7 +130,7 @@ function NavBar() {
                                         </Menu.Items>
                                     </Transition>
                                 </Menu>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
