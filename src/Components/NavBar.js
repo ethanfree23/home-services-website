@@ -23,7 +23,7 @@ function NavBar() {
                         <div className="relative flex items-center justify-between h-16">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
-                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-[#003278] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="sr-only">Open main menu</span>
                                     {open ? (
                                         <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -57,6 +57,7 @@ function NavBar() {
                                                 className={classNames(
                                                     item.current ? 'bg-[#003278] text-white' : 'text-[#313639] hover:bg-[#003278b7] hover:text-white',
                                                     'px-3 py-2 rounded-md text-sm font-medium'
+                                                    //hover:border-2 hover:border-[#c0111f]
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
                                             >
@@ -142,8 +143,10 @@ function NavBar() {
                                     as="a"
                                     href={item.href}
                                     className={classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text- hover:bg-gray-700 hover:text-white',
-                                        'block px-3 py-2 rounded-md text-base font-medium'
+                                        item.current
+                                            ? 'bg-[#003278] text-white'
+                                            : 'text- hover:bg-[#003278bf] hover:text-white',
+                                        'block px-3 py-2 rounded-md text-base font-medium hover:border-2 hover:border-[#c0111f]'
                                     )}
                                     aria-current={item.current ? 'page' : undefined}
                                 >
