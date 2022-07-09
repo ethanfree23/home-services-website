@@ -3,7 +3,7 @@ import React from 'react'
 function Testimonials() {
   return (
     <div className="bg-white pt-16 lg:py-24">
-      <div className="pb-16 bg-[#003278] lg:pb-0 lg:z-10 lg:relative">
+      <div className="pb-16 bg-[#003278] border-t-2 border-t-[#c0111f] lg:pb-0 lg:z-10 lg:relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
             <div aria-hidden="true" className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />

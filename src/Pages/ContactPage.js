@@ -1,21 +1,5 @@
 import React from 'react'
 
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 function ContactPage() {
   return (
     <div className="relative bg-white">
@@ -33,10 +17,44 @@ function ContactPage() {
           <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Let's work together</h2>
             <p className="mt-4 text-lg text-gray-500 sm:mt-3">
-              We’d love to hear from you! Send us a message using the form opposite, or email us. We’d love to hear from
-              you! Send us a message using the form opposite, or email us.
+              We’d love to hear from you! Send us an email, or give us a call. We’d love to hear from
+              you!
             </p>
-            <form action="#" method="POST" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <div className="py-16 lg:grid lg:grid-cols-3 lg:gap-8">
+              <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
+                <div>
+                  <h3 className="text-lg leading-6 font-medium text-gray-900">Email</h3>
+                  <dl className="mt-2 text-base text-gray-500">
+                    <div>
+                      <dt className="sr-only">Email</dt>
+                      <dd>smiththearon@yahoo.com</dd>
+                    </div>
+                    <h3 className="text-lg leading-6 font-medium text-gray-900 mt-12">Phone</h3>
+                    <div className="mt-1">
+                      <dt className="sr-only">Phone Number</dt>
+                      <dd>(936) 777-9629</dd>
+                    </div>
+                    <h3 className="text-lg leading-6 font-medium text-gray-900 mt-12">Service Areas</h3>
+                    <div className="mt-1">
+                      <dt className="sr-only">Service Areas</dt>
+                      <dd>Montgomery County & Surrounding Areas</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+export default ContactPage
+
+
+{/* <form action="#" method="POST" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
                 <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
                   First name
@@ -207,13 +225,4 @@ function ContactPage() {
                   Submit
                 </button>
               </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-
-export default ContactPage
+            </form> */}
