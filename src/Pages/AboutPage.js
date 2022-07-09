@@ -58,7 +58,7 @@ function AboutPage() {
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
                     <svg
-                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-400"
+                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-[#c01120]"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
@@ -88,13 +88,13 @@ function AboutPage() {
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
               <p className="text-lg">
-                <span className="font-bold"> Our Mission </span>
+                <span className="font-bold">Our Mission </span>
                 is to sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
                 pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel
                 porttitor vitae ut. Amet vitae fames senectus vitae.
               </p>
               <p className="text-base leading-7">
-                <span className="font-bold"> Our Mission </span>
+                <span className="font-bold">Our Vision </span>
                 is to sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
                 pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique
                 eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu
@@ -114,7 +114,7 @@ function AboutPage() {
               ))}
             </dl>
             <div className="mt-10">
-              <a href="#" className="text-base font-medium text-indigo-600">
+              <a href="#" className="text-base font-medium text-[#c0111f]">
                 {' '}
                 Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span>{' '}
               </a>

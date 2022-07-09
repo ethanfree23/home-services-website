@@ -1,3 +1,6 @@
+// blue = 003278
+// red = c0111f
+
 import './Styles/App.css';
 
 import React from 'react';
