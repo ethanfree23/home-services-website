@@ -21,7 +21,7 @@ function Stats() {
               <div className="max-w-4xl mx-auto">
                 <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                   <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-[#c0111f]">Availability</dt>
+                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-[#c0111f]">Availability!</dt>
                     <dd className="order-1 text-5xl font-extrabold text-[#003278]">24/7</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">

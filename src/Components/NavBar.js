@@ -13,7 +13,7 @@ const navigation = [
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
-
+ 
 function NavBar() {
     return (
         <Disclosure as="nav" className="bg-[#F9F9F9] border-b-2 border-b-[#c0111f]">
